@@ -426,7 +426,7 @@ class room1 extends Phaser.Scene {
     });
 
     if (this.health <= 0) {
-      this.scene.start("level3");
+      this.scene.start("gameover2");
     }
   }
 
