@@ -366,7 +366,7 @@ class world extends Phaser.Scene {
     this.add
       .image(600, 45, "fish5")
       .setScrollFactor(0)
-      .setScale(0.6)
+      .setScale(1)
       .setDepth(9999);
 
     this.fishText = this.add
